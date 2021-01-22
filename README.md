@@ -10,15 +10,15 @@ This tool has two goals:
 This tool it's very simple to use and only `Python3.8` is required. To see the instructions to run just execute `python main.py -h`,
 this instruction will output
 
-![general help] (general_help.png)
+![general help](general_help.png)
 
 To see the instruction for the first goal just execute `python main.py input_file connected -h`
 
-![connected help] (connected_help.png)
+![connected help](connected_help.png)
 
 And for the second goal `python main.py input_file unlimited -h`
 
-![unlimited hep] (unlimited_help.png)
+![unlimited hep](unlimited_help.png)
 
 ### Try it
 In this repository there is an example file, that can be used to check the tool, this sample file is located in `data/sample.txt`.
@@ -41,11 +41,11 @@ and max size of 10**6 bytes. This can be changed using the following environment
 ## The output
 An example of output for the first goal is:
 
-![connected output] (connected_output.png)
+![connected output](connected_output.png)
 
 And an example of output for the second goal is:
 
-![unlimited output] (unlimited_output.png)
+![unlimited output](unlimited_output.png)
 
 ## The checks
 There are some dependencies to run the tests, the easier way to install it is using pipenv with `pipenv install --dev`. Once the dependencies are
